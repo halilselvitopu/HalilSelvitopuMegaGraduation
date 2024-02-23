@@ -1,0 +1,59 @@
+.Navbar {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #054e45, #32cd66);
+  display: flex;
+  flex-direction: row;
+  border-bottom: white 300px;
+}
+
+.gezi{
+
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.Navbar .main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+.Navbar .mainLink {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.Navbar .main img {
+  height: 70px;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.Navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.Navbar .main svg {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar .main {
+    padding-left: 0px !important;
+  }
+  .Navbar .main a {
+    font-size: 13px;
+  }
+  .Navbar .mainLink {
+    margin: 0;
+  }
+}

@@ -1,0 +1,47 @@
+.meramMainPage {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.meramTrip {
+  width: auto;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.meramTrip button {
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to right, #00ff6a, #32cd78);
+  height: 50px;
+  width: 180px;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+  .meramMainPage {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .meramTrip {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

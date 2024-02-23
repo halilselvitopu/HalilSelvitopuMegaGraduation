@@ -1,0 +1,9 @@
+.location {
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı */
+    padding: 10px 20px; /* Buton içi dolgusu */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşeleri yuvarla */
+    cursor: pointer; /* İmleç türü */
+  }
+  
